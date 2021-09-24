@@ -116,7 +116,12 @@
 
 	img.scale-with-grid {
 		max-width: 100%;
-		height: auto; }
+		height: auto; 
+	}
+
+	img.circle {
+		border-radius: 50%;
+	}
 
 
 /* #Buttons
