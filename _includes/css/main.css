@@ -25,6 +25,10 @@ html { box-sizing: border-box; }
   #{{id}} .sectiondivider { color: {{ bg }}; }
 {% endfor %}
 
+.fa-dg {
+  color: #505050
+}
+
 
 /* ----- code, syntax highlighting, etc ----- */
 
