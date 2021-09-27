@@ -32,6 +32,7 @@ colors:
   turquoise: '#0fbfcf'
   red:       '#ff828e'
   blue-line: '#3191ff'
+  dark-gray: '#505050'
 
 kramdown:
   auto_ids:  false
