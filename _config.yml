@@ -30,7 +30,7 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
-  red:       '#ff828e'
+  red-line:  '#ff828e'
   blue-line: '#3191ff'
   dark-gray: '#505050'
 
