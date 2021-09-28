@@ -19,10 +19,12 @@ html { box-sizing: border-box; }
   {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
+  {% capture ic %}{% if site.colors[node.icon-color] %}{{ site.colors[node.color] }}{% else %}{{ node.icon-color }}{% endif %}{% endcapture %}
   nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
   #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}} .fa-stack-1x, .icon-title { color: {{ ic }}; }
 {% endfor %}
 
 .fa-dg {
