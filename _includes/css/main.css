@@ -23,13 +23,13 @@ html { box-sizing: border-box; }
   nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {{ bg }}; }
+  #{{id}} .sectiondivider { color: {% if ic %}{{ ic }}{% else %}{{ bg }}{% endif %}; }
   #{{id}} .fa-stack-1x .icon-title { color: {{ ic }} !important; }
 {% endfor %}
 
-.fa-dg {
-  color: #505050
-}
+  .fa-dg {
+    color: #505050
+  }
 
 
 /* ----- code, syntax highlighting, etc ----- */
