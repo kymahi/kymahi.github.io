@@ -24,7 +24,7 @@ html { box-sizing: border-box; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
   #{{id}} .sectiondivider { color: {{ bg }}; }
-  #{{id}} .fa-stack-1x, .icon-title { color: {{ ic }}; }
+  #{{id}} .fa-stack-1x .icon-title { color: {{ ic }} !important; }
 {% endfor %}
 
 .fa-dg {
