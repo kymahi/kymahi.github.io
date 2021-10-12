@@ -23,7 +23,7 @@ html { box-sizing: border-box; }
   nav .p-{{id}} { border-color: {{ bg }}; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
   #{{id}} a { color: {{ fg }}; }
-  #{{id}} .sectiondivider { color: {% if ic != "" and ic != nil %}{{ ic }}{% else %}{{ bg }}{% endif %}; }
+  #{{id}} .sectiondivider { color: {% if ic != "" and ic != nil %}{{ ic }}{% else %}{{ bg }}{% endif %} !important; }
 {% endfor %}
 
   .fa-dg {
