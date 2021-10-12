@@ -245,24 +245,18 @@ nav ul li:hover, nav ul li.active {
   text-shadow: 1px 1px 3px #333;
 }
 
-.container_row{
+.container_row {
   display: grid;
 }
 
-.layer1, .layer2{
+.layer1, .layer2 {
   grid-column: 1;
   grid-row: 1;
 }
 
-.layer1 span{
+.layer1 span {
   color: #fff;
-  background: #000cf6;
 }
-
-.layer2{
-  background: rgba(255, 0, 0, 0.4);
-}
-
 
 .columned {
   -webkit-column-count: 3;
