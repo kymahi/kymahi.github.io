@@ -18,7 +18,7 @@ title:       "Home of The Best Puckin' Hockey Podcast"
 keywords:    "podcast,hockey,nhl,khl,trade,signing,extension,rumor,fun,funny"
 description: "The official place to find out mroe about The Best Puckin' Hockey Podcast"
 source_link: "https://github.com/kymahi/kymahi.github.io/"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: 'G-JW1FJ7DJTW'
 
 
 ### template colors, used site-wide via css ###
